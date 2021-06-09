@@ -29,4 +29,4 @@ app.use('/submissions', require('./routes/submissions.routes.js'))
 app.get('*', function (req, res) {
     res.status(404).json({ message: 'WHAT???' });
 })
-app.listen(port, host, () => console.log(`App listening at http://${host}:${port}/`));
+/* app.listen(port, host, () => console.log(`App listening at http://${host}:${port}/`)); */
